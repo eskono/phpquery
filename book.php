@@ -1,10 +1,10 @@
 <?php
 require('phpQuery/phpQuery.php');
 
-$id = 83104;
+$id = 46418;
 $url = "http://loveread.ec/read_book.php?id=%d&p=%d";
 $page = 1;
-$endPage = 86;
+$endPage = 63;
 $content = [];
 
 function parsePage($id, $page, $endPage, $url, &$content)
